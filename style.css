@@ -21,7 +21,7 @@
     left: 10px;
     width: calc(100% + 10px * 2);
     height: calc(100% + 5px * 2);
-    background: url(https://tenor.com/view/apple-logo-static-glitch-gif-12802901) no-repeat 50% 0;
+    background: url(https://tenor.com/view/apple-logo-static-glitch-gif-12802901) no-repeat 50% 0; 
     background-color: transparent;
     background-size: cover;
     transform: translate3d(0, 0, 0);
