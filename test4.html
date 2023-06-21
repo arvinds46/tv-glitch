@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Register</title>
+    </head>
+    <body>
+        <nav>
+            <a href="test4_index.html" style="font-size: 20px;">Home</a>
+            <a href="#" style="font-size: 20px;">Register</a>
+            <a href="login.html" style="font-size: 20px;">Login</a>
+            <a href="contactus.html" style="font-size: 20px;">ContactUs</a>
+            <a href="survey.html" style="font-size: 20px;">Survey</a>
+            <hr>
+        </nav>
+        <h1>Registration Form</h1>
+        <hr>
+        <form action="test.php" method="post">
+            Emailid: <input type="email" name="email" placeholder="johndoe@gmail.com" required><br><br>
+            Password: <input type="password" name="password" placeholder="###########" minlength="8" pattern="[A-Za-z0-9]+"><br><br>
+            Age: <input type="number" name="age" min="10" max="70" step="10" required><br><br>
+            Country: <select name="country">
+                <option>--Select--</option>
+                <option value="IND">India</option>
+                <option value="CAN">Canada</option>
+                <option value="AUS">Australia</option>
+            </select><br><br>
+            Gender: <input type="radio" value="male" name="gender" checked> Male
+            <input type="radio" value="female" name="gender"> Female
+            <input type="radio" value="other" name="gender"> Other <br><br>
+            Languages Known: <input type="checkbox" value="hindi" name="hindi"> Hindi
+            <input type="checkbox" value="english" name="english" checked> English
+            <input type="checkbox" value="tamil" name="tamil"> Tamil <br><br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
