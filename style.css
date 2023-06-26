@@ -21,10 +21,14 @@ figure, figure h1, figure h2 {margin: 0;}
   width: 50%;
   border: 3px solid rgb(128, 98, 0);
   padding: 10px;
+  background-image: linear-gradient(to bottom right, purple, red, green);
+}
+#contact p {
+  margin: 0;
 }
 a {
   text-decoration: none;
-  color: aqua;
+  color: white;
 }
   /* Glitch styles */
   .glitch {
