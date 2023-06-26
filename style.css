@@ -1,10 +1,27 @@
+@font-face {
+  font-family: 'riesling';
+  src: url('riesling.ttf') format('truetype');
+}
   body {
     background-color: black;
-  }
-  p {
+    font-family: riesling, sans-serif;
     color: white;
+    font-weight: 600;
+    font-size: xxx-large;
   }
-
+  img {
+    border-radius: 50%;
+  }
+figure, figure h1, figure h2 {margin: 0;}
+.twitter {color: aqua;}
+.linkedin {color: #79aef3;}
+.github {color: #f78166;}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(128, 98, 0);
+  padding: 10px;
+}
   /* Glitch styles */
   .glitch {
     position: absolute;
