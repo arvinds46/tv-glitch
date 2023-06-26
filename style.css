@@ -23,6 +23,7 @@ figure, figure h1, figure h2 {margin: 0;}
   padding: 10px;
   background-image: linear-gradient(to bottom right, purple, red, green);
 }
+table {border: 1px solid white;}
 #contact p {
   margin: 0;
 }
