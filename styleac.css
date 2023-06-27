@@ -6,7 +6,6 @@ header h2 {
     background-color: mediumvioletred;
     border-radius: 50%;
     display: inline-block;
-    width: 35px;
     border: 2px solid blue;
     padding: 10px;
     vertical-align: middle;
@@ -15,7 +14,12 @@ header nav {
     display: inline-block;
     vertical-align: middle;
     text-align: right;
-    width: 95%;
+    width: 48%;
+}
+header nav input {
+    border: 1px solid mediumvioletred;
+    border-radius: 10px;
+    width: 49%;
 }
 header nav a {
     color: mediumvioletred;
@@ -60,6 +64,11 @@ nav li {
 }
 #container h1 {
     margin: 50px;
+}
+#container1 {
+    height: 600px;
+    width: 60%;
+    float: left;
 }
 #sidebar2 {
     height: 600px;
