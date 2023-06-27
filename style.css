@@ -3,7 +3,7 @@
   src: url('riesling.ttf') format('truetype');
 }
   body {
-    background: url(Grad_15.png) repeat black center 50%;
+    background: url(Grad_15.png) no-repeat black center 50%;
     font-family: riesling, sans-serif;
     color: white;
     font-weight: 600;
