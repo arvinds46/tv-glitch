@@ -3,7 +3,7 @@
   src: url('riesling.ttf') format('truetype');
 }
   body {
-    background: url(grad_16.png) repeat black center 50%;
+    background: url(Grad_15.png) repeat black center 50%;
     font-family: riesling, sans-serif;
     color: white;
     font-weight: 600;
@@ -16,10 +16,10 @@ figure, figure h1, figure h2 {margin: 0;}
 .center {
   margin: auto;
   width: 50%;
-  border: 3px solid rgb(255, 80, 80);
+  border: 3px solid orange;
   padding: 10px;
   background-image: linear-gradient(to bottom right, #02123c, #1d1872, #1d1872);
-  border-radius: 50px 0;
+  border-radius: 50px;
   color: orange;
 }
 table {border: 1px solid white;}
