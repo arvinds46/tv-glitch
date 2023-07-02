@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'riesling';
+    src: url('riesling.ttf') format('truetype');
+  }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(black 50%,grey, blue);
+    background-attachment: fixed;
+    padding: 10px;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  header {
+    width: 100%;
+    margin: 10px 0;
+  }
+  header figure {
+      float: left;
+      width: 10%;
+    margin: auto;
+    position: absolute;
+    top: 25px;
+    left: 500px;
+  }
+  header h1 {
+    text-align: center;
+    color: #00ff5d;
+    text-shadow: -2px 2px 4px #00ff5d;
+  }
+  header h1 span {
+    font-size: 12px;
+  }
+  nav {
+    background-color: #ff008a;
+    border-top: 6px solid #00ff5d;
+    border-radius: 0 0 50% 50%;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+  }
+  nav a, nav span {
+    color: #00ff5d;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    text-align: left;
+    font-family: riesling, sans-serif;
+  }
+  nav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  fieldset {
+    width: 50%;
+    margin: auto;
+    color: turquoise;
+    line-height: 3em;
+  }
+  article {
+    margin: auto;
+    color: yellow;
+  }
+  article figure, article ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+  article figure {width: 28%;}
+  article ul li {
+    line-height: 3em;
+  }
+  footer h2 {
+    color: #ff5a00;
+    text-align: center;
+  }
+  footer div {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+  }
+  footer a {
+    text-decoration: none;
+     color: #ff5a00;
+     text-align: center;
+  }
+  footer i,  footer span {
+    font-size: xxx-large;
+    padding: 50px;
+  }
+  footer p,  footer span  {
+    color: turquoise;
+  }
