@@ -56,6 +56,35 @@ body {
     text-decoration: underline;
     color: black;
   }
+  nav div.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav div.dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  nav div.dropdown .dropdown-content a {
+    color: turquoise;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: 100;
+  }
+  
+  nav div.dropdown .dropdown-content a:hover {color: black;}
+  
+  nav div.dropdown:hover .dropdown-content {
+    display: block;
+  }
   fieldset {
     width: 50%;
     margin: auto;
