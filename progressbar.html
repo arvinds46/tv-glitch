@@ -4,43 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Progress Bar</title>
-    <style>
-        .w3-light-gray {
-            background-color: grey;
-        }
-        .w3-light-grey {
-            background-color: grey;
-            border-radius: 16px;
-        }
-        .w3-container {
-            color: #fff;
-            background-color:#78de12;
-            padding: 8px 16px;
-            border-radius: 16px;
-            text-align: right;
-        }
-        .w3-blue {
-            background-color:#00b4f1;
-            padding: 16px;
-            border-radius: 16px;
-        }
-        .w3-red {
-            background-color:#e71616;
-            border-radius: 16px;
-            padding: 0.3em 16px;
-            font-size: 10px;
-        }
-        .w3-orange {
-            background-color:#fd9205;
-            padding: 8px 16px;
-            border-radius: 16px;
-            text-align: center;
-        }
-        .w3-green {
-            background-color:#78de12;
-            padding: 16px;
-        }
-    </style>
+        <link href="progress.css" rel="stylesheet" type="text/css" />
     </head>
 <body>
   <header><h2>Progress Bars</h2></header>
@@ -65,5 +29,41 @@
     <div class="w3-green" style="width:20%"></div>
   </div>
   <p>20%</p>
+  <div class="bar-wrapper">
+    <div class="bar">
+      <div class="face top">
+        <div class="state"></div>
+      </div>
+      <div class="face back">
+        <div class="state"></div>
+      </div>
+      <div class="face floor">
+        <div class="state"></div>
+      </div>
+      <div class="face left"></div>
+      <div class="face right"></div>
+      <div class="face front">
+        <div class="state"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.body.onload = function(){
+        let w = 0;
+
+        const intervl = setInterval(function () {
+            const states = document.body.getElementsByClassName("state");
+            for(let i=0; i<states.length; i++) {
+                states[i].style.width = w + "%";
+            }
+
+            w++;
+
+            if(w > 100) {
+                clearInterval(intervl);
+            }
+        }, 50);
+    }
+</script>
 </body>
 </html>
