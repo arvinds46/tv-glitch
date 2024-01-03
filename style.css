@@ -1,10 +1,35 @@
+@font-face {
+  font-family: 'riesling';
+  src: url('riesling.ttf') format('truetype');
+}
   body {
-    background-color: black;
-  }
-  p {
+    background: url(Grad_15.png) no-repeat black center 50%;
+    font-family: riesling, sans-serif;
     color: white;
+    font-weight: 600;
+    font-size: xxx-large;
   }
-
+figure, figure h1, figure h2 {margin: 0;}
+.twitter {color: aqua;}
+.linkedin {color: #79aef3;}
+.github {color: #f78166;}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid orange;
+  padding: 10px;
+  background-image: linear-gradient(to bottom right, #02123c, #1d1872, #1d1872);
+  border-radius: 50px;
+  color: orange;
+}
+table {border: 1px solid white;}
+#contact p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: orange;
+}
   /* Glitch styles */
   .glitch {
     position: absolute;
@@ -21,7 +46,7 @@
     left: 10px;
     width: calc(100% + 10px * 2);
     height: calc(100% + 5px * 2);
-    background: url(https://tenor.com/view/apple-logo-static-glitch-gif-12802901) no-repeat 50% 0;
+    background: url(https://media.tenor.com/W4yyOFmB2OAAAAAC/apple-logo.gif) no-repeat 50% 0; 
     background-color: transparent;
     background-size: cover;
     transform: translate3d(0, 0, 0);

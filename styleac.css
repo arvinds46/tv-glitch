@@ -1,0 +1,87 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header h2 {
+    color: white;
+    background-color: mediumvioletred;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid blue;
+    padding: 10px;
+    vertical-align: middle;
+}
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 48%;
+}
+header nav input {
+    border: 1px solid mediumvioletred;
+    border-radius: 10px;
+    width: 49%;
+}
+header nav a {
+    color: mediumvioletred;
+    padding: 8px 2px;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: #a35f07;
+    background-color: beige;
+}
+nav a {
+    color: magenta;
+    line-height: 50px;
+    text-decoration: none;
+}
+nav li {
+    list-style-type: none;
+}
+.listside a {
+    color: #000;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+#sidebar {
+    height: 600px;
+    width: 20%;
+    float: left;
+}
+#container {
+    height: 600px;
+    width: 60%;
+    float: left;
+    color: white;
+    background-color: mediumvioletred;
+    border-radius: 50%;
+    text-align: center;
+}
+#container h1 {
+    margin: 50px;
+}
+#container1 {
+    height: 600px;
+    width: 60%;
+    float: left;
+}
+#sidebar2 {
+    height: 600px;
+    width: 20%;
+    float: left;
+}
+#socialicons {
+    position: fixed;
+    top: 46%;
+    left: 0;
+}
+#socialicons a {
+    color: mediumvioletred;
+    line-height: 0;
+    font-size: 46px;
+}

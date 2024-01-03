@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Responsive Design</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">TATA DIGITAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-success">Register</button>
+            </div>
+            </div>
+          </nav>
+          <ul class="nav justify-content-center bg-dark">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Men
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Women
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Disabled</a>
+            </li>
+          </ul>
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://cdn.dribbble.com/users/2273166/screenshots/5549025/protouch_4x.png" height="400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.dribbble.com/users/1162450/screenshots/3392756/media/b987284ed29f1a9c30cb245e1a07314a.png?compress=1&resize=768x576&vertical=top" height="400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://miro.medium.com/max/1400/1*w5_ZDoxgCHxBUX4wTHIv_w.jpeg" height="400" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="">
+            <h2>Featured Products</h2>
+            <div class="row">
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://tse3.mm.bing.net/th/id/OIP.Tg0larMw8Tuf7cespcrxlwHaHa?pid=ImgDet&w=300&h=300&rs=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </div>
+          <div class="text-bg-dark text-center">
+            <div class="row">
+            <div class="col-12 col-sm-3 p-4">
+                <a href="#" class="text-decoration-none d-block text-light">Men</a>
+                <a href="#" class="text-decoration-none d-block text-light">Shirts</a>
+                <a href="#" class="text-decoration-none d-block text-light">Bags</a>
+                <a href="#" class="text-decoration-none d-block text-light">Belts</a>
+            </div>
+            <div class="col-12 col-sm-3 p-4">
+                <a href="#" class="text-decoration-none d-block text-light">Men</a>
+                <a href="#" class="text-decoration-none d-block text-light">Shirts</a>
+                <a href="#" class="text-decoration-none d-block text-light">Bags</a>
+                <a href="#" class="text-decoration-none d-block text-light">Belts</a>
+            </div>
+            <div class="col-12 col-sm-3 p-4">
+                <a href="#" class="text-decoration-none d-block text-light">Men</a>
+                <a href="#" class="text-decoration-none d-block text-light">Shirts</a>
+                <a href="#" class="text-decoration-none d-block text-light">Bags</a>
+                <a href="#" class="text-decoration-none d-block text-light">Belts</a>
+            </div>
+            <div class="col-12 col-sm-3 p-4">
+                <a href="#" class="text-decoration-none d-block text-light">Men</a>
+                <a href="#" class="text-decoration-none d-block text-light">Shirts</a>
+                <a href="#" class="text-decoration-none d-block text-light">Bags</a>
+                <a href="#" class="text-decoration-none d-block text-light">Belts</a>
+            </div>
+        </div>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
